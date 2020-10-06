@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  color: #444;
+  text-align: center
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+  border: 2px solid #333;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #00a2ff;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 400px;
+  margin: 4rem auto;
+  overflow: hidden;
+  padding: 20px
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
